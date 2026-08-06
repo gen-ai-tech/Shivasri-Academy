@@ -404,6 +404,12 @@ blockquote {
   align-items: center;
 }
 
+.logo-icon img {
+  height: 44px;
+  width: auto;
+  border-radius: 8px;
+}
+
 .logo-text {
   font-size: 1.125rem;
   font-weight: 800;
@@ -1851,6 +1857,19 @@ blockquote {
 
 .footer-logo .logo-text {
   color: var(--white);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.footer-logo .logo-icon img {
+  height: 44px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .footer-tagline {

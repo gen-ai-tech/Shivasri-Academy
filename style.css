@@ -819,6 +819,11 @@ blockquote {
   overflow: hidden;
 }
 
+.about-section .container {
+  position: relative;
+  z-index: 1;
+}
+
 .about-section::before {
   content: '';
   position: absolute;

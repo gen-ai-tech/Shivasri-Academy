@@ -2282,7 +2282,7 @@ blockquote {
     color: var(--white);
     padding: 10px 8px;
     border-radius: var(--radius-sm);
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 700;
     text-decoration: none;
     text-align: center;
